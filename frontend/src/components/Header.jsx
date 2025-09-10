@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { FiHome, FiPlusSquare, FiUser, FiLogOut, FiMenu, FiX } from 'react-icons/fi';
 import { Logo } from './Logo';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../hooks/useAuth.jsx';
 
 const HeaderContainer = styled.header`
   background: rgba(255, 255, 255, 0.95);
